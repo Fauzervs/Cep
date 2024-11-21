@@ -1,40 +1,54 @@
-export const styles ={
-    container:{
-    backgroundColor:"fff",
-    flex:1,
-    alignItems: "center"
+export const styles = {
+    container: {
+      flex: 1,
+      justifyContent: 'center',
+      alignItems: 'center',
+      backgroundColor: '#f0f0f0',
     },
-    titulo:{
-        fontSize:30,
-        textAlign:"center"
+    titulo: {
+      fontSize: 24,
+      fontWeight: 'bold',
+      marginBottom: 20,
     },
-    TextInput:{
-        backgroundColor:"#ececec",
-        padding:15,
-        width:150,
-        borderRadius:6,
-        fontSize:20
+    img: {
+      width: 200,
+      height: 100,
+      marginBottom: 20,
     },
-    form:{
-        marginTop:40
+    form: {
+      width: '80%',
+      alignItems: 'center',
     },
-    resultado:{
-        fontSize:30
+    TextInput: {
+      width: '100%',
+      height: 50,
+      paddingLeft: 10,
+      borderColor: '#ccc',
+      borderWidth: 1,
+      borderRadius: 8,
+      marginBottom: 15,
     },
-    btn:{
-        backgroundColor:"#2993c8",
-        with:150,
-        borderRadius:50,
-        padding:15,
-        alignItems:"center",
-        marginTop:10
-     },
-     btnText:{
-        color:"#fff",
-        fontSize:20
-     },
-        img:{
-           with: 150,
-           height:30
-        }
-}
+    btn: {
+      width: '100%',
+      height: 50,
+      backgroundColor: '#1E90FF',
+      justifyContent: 'center',
+      alignItems: 'center',
+      borderRadius: 8,
+    },
+    btnText: {
+      color: '#fff',
+      fontSize: 18,
+    },
+    resultado: {
+      marginTop: 20,
+      fontSize: 18,
+      color: 'green',
+    },
+    errorText: {
+      marginTop: 20,
+      fontSize: 18,
+      color: 'red',
+    },
+  };
+  
